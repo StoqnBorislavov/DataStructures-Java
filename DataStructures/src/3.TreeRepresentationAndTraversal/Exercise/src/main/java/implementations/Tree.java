@@ -177,14 +177,69 @@ public class Tree<E> implements AbstractTree<E> {
 
     @Override
     public List<List<E>> pathsWithGivenSum(int sum) {
-        return null;
+        List<List<E>> allPaths = getLeafs().stream().map(l -> l.getPath()).collect(Collectors.toList());
+        List<List<E>> pathsWithGivenSum = new ArrayList<>();
+        int currentSum = 0;
+        for (List<E> path : allPaths) {
+            for (E e : path) {
+                currentSum += (Integer) e;
+            }
+            if (currentSum > sum) {
+                break;
+            }
+            if (currentSum == sum) {
+                pathsWithGivenSum.add(path);
+            }
+        }
+
+        return pathsWithGivenSum;
+    }
+
+    private List<E> getPath() {
+        ArrayDeque<E> stack = new ArrayDeque<>();
+        Tree<E> currentTree = this;
+
+        while (currentTree != null) {
+            stack.push(currentTree.getKey());
+            currentTree = currentTree.parent;
+        }
+        return new ArrayList<>(stack);
+    }
+
+    private List<Tree<E>> getLeafs() {
+        List<Tree<E>> collection = new ArrayList<>();
+        return getAllTreesDFS().stream().filter(t -> t.children.isEmpty()).collect(Collectors.toList());
+    }
+
+    private List<Tree<E>> getAllTreesDFS() {
+        List<Tree<E>> result = new ArrayList<>();
+        getAllTreesDFS(this, result);
+        return result;
+    }
+
+    private void getAllTreesDFS(Tree<E> currentTree, List<Tree<E>> allTrees) {
+        allTrees.add(currentTree);
+
+        for (Tree<E> child : currentTree.children) {
+            getAllTreesDFS(child, allTrees);
+        }
     }
 
     @Override
     public List<Tree<E>> subTreesWithGivenSum(int sum) {
-        return null;
+        List<Tree<E>> allTrees = getAllTreesDFS();
+
+        return allTrees.stream()
+                .filter(t -> t.getSum() == sum)
+                .collect(Collectors.toList());
+    }
+
+
+    private int getSum() {
+        return getAllTreesDFS().stream()
+                .map(t -> (Integer) t.key)
+                .reduce(0, (accumulator, element) -> accumulator += element);
     }
 }
-
 
 
