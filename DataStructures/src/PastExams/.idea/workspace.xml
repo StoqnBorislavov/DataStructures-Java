@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5039071e-6ebd-4054-bb94-0dc6605652f4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1vGxDWeYuSUSW4DRhDT9tlOrCRY" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopProblem" />
+  </component>
+  <component name="RunManager" selected="JUnit.MessagingSystemTest">
+    <configuration name="MessagingSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structires-Fund-Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.MessagingSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagingSystemTest.testAddMultipleShouldSetCorrectElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structires-Fund-Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.MessagingSystemTest" />
+      <option name="METHOD_NAME" value="testAddMultipleShouldSetCorrectElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagingSystemTest.testAddMultipleShouldWorkCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structires-Fund-Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.MessagingSystemTest" />
+      <option name="METHOD_NAME" value="testAddMultipleShouldWorkCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagingSystemTest.testGetLightestShouldReturnCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structires-Fund-Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.MessagingSystemTest" />
+      <option name="METHOD_NAME" value="testGetLightestShouldReturnCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagingSystemTest.testGetPostOrderShouldReturnCorrectSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structires-Fund-Exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.MessagingSystemTest" />
+      <option name="METHOD_NAME" value="testGetPostOrderShouldReturnCorrectSequence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MessagingSystemTest" />
+        <item itemvalue="JUnit.MessagingSystemTest.testGetPostOrderShouldReturnCorrectSequence" />
+        <item itemvalue="JUnit.MessagingSystemTest.testGetLightestShouldReturnCorrect" />
+        <item itemvalue="JUnit.MessagingSystemTest.testAddMultipleShouldSetCorrectElements" />
+        <item itemvalue="JUnit.MessagingSystemTest.testAddMultipleShouldWorkCorrectly" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5039071e-6ebd-4054-bb94-0dc6605652f4" name="Default Changelist" comment="" />
+      <created>1626202107334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626202107334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1250" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1626202435127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1250" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1626202435127" />
+    <state x="1225" y="380" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627143291543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1225" y="380" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1627143291543" />
+    <state x="1163" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1627143430436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1163" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627143430436" />
+    <state x="1234" y="278" key="FileChooserDialogImpl" timestamp="1627197348226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1234" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627197348226" />
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1627197358041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627197358041" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1627197358040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627197358040" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1627197358040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627197358040" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1627197358040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627197358040" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1627197358041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627197358041" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1627197358041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627197358041" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1627197358041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627197358041" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1627197358041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627197358041" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/core/MessagingSystem.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
